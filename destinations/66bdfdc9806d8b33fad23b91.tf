@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_destination" "id-66bdfdc9806d8b33fad23b91" {
-  enabled = false
+  enabled = true
   metadata = {
     contacts          = null
     id                = "650bdf1a62fb34ef0a8058e1"
@@ -13,6 +13,6 @@ resource "segment_destination" "id-66bdfdc9806d8b33fad23b91" {
     supported_regions = ["us-west-2", "eu-west-1"]
   }
   name      = "Klaviyo (Actions)"
-  settings  = "{\"api_key\":\"\"}"
+  settings  = "{\"api_key\":\"••••••••••7a00\"}"
   source_id = "DgC1LAHwYAcvPdsWdh7jV"
 }
