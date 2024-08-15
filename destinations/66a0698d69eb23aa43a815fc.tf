@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_destination" "id-66a0698d69eb23aa43a815fc" {
-  enabled = false
+  enabled = true
   metadata = {
     contacts = [
       {
@@ -16,6 +16,6 @@ resource "segment_destination" "id-66a0698d69eb23aa43a815fc" {
     supported_regions = ["us-west-2", "eu-west-1"]
   }
   name      = "GA4 Wain [Rudderstack]"
-  settings  = "{\"apiSecret\":\"\",\"firebaseAppId\":\"\",\"measurementId\":\"\"}"
+  settings  = "{\"apiSecret\":\"••••••••••C1sw\",\"firebaseAppId\":\"\",\"measurementId\":\"G-DW3954KS2W\"}"
   source_id = "DgC1LAHwYAcvPdsWdh7jV"
 }
