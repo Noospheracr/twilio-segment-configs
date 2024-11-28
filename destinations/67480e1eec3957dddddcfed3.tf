@@ -13,6 +13,6 @@ resource "segment_destination" "id-67480e1eec3957dddddcfed3" {
     supported_regions = null
   }
   name      = "Personas Facebook Custom Audiences"
-  settings  = "{\"account\":\"act_383190990833946\",\"specialAdCategory\":\"\"}"
+  settings  = "{\"account\":\"act_383190990833946\",\"specialAdCategory\":\"NONE\"}"
   source_id = "DgC1LAHwYAcvPdsWdh7jV"
 }
