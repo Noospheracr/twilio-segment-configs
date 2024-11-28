@@ -12,10 +12,10 @@ resource "segment_destination_filter" "id-67480e1eec3957dddddcfed3_2pUGan5BBK8TC
       type    = "DROP"
     },
   ]
-  description    = null
+  description    = "Only send events with the required identifiers (e.g., externalId)."
   destination_id = "67480e1eec3957dddddcfed3"
   enabled        = true
-  if             = "!(properties.anonymousId != null)"
+  if             = "!(context.externalIds != null)"
   source_id      = "DgC1LAHwYAcvPdsWdh7jV"
-  title          = "Include Events that have an associated anonymousId"
+  title          = "Include Events that have an context.externalIds"
 }
