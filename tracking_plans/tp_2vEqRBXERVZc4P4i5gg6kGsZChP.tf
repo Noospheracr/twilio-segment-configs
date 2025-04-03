@@ -28,6 +28,22 @@ resource "segment_tracking_plan" "id-tp_2vEqRBXERVZc4P4i5gg6kGsZChP" {
       type    = "TRACK"
       version = 1
     },
+    {
+      json_schema = jsonencode({
+        "$schema" = "http://json-schema.org/draft-07/schema#"
+        properties = {
+          context    = {}
+          properties = {}
+          traits = {
+            type = "object"
+          }
+        }
+        type = "object"
+      })
+      key     = null
+      type    = "IDENTIFY"
+      version = 1
+    },
   ]
   type = "LIVE"
 }
